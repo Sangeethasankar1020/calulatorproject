@@ -7,15 +7,6 @@
 html {
   margin-top: 50px;
 }
-
-body {
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  margin: 0;
-  padding: 0;
-}
-
 .main-container {
   height: 400px;
   width: 250px;
@@ -39,12 +30,6 @@ body {
   box-sizing: border-box;
   padding: 15px;
 }
-
-.toggle {
-  float: right;
-  font-size: 10px;
-}
-
 .btn-operator,
 .btn-number,
 .btn-equal {
@@ -54,9 +39,7 @@ body {
   border: 0;
   border-radius: 30px;
   margin: 5px;
-
 }
-
 .btn-number {
   background-color: #c3eaff;
   color: #000000;
@@ -86,6 +69,3 @@ button:hover {
   transform: scale(1.1);
 }
 
-.display {
- 
-}
